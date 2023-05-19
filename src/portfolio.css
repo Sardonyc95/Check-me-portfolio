@@ -28,7 +28,7 @@ h2 {
   line-height: 2;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -59,7 +59,7 @@ p {
   border: 1px solid var(--btn-gradient);
   color: var(--btn-gradient);
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
   padding: 15px 30px;
 }
