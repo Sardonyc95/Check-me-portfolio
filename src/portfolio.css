@@ -60,6 +60,11 @@ p {
   font-family: var(--default-font);
   margin: 20px 10px 10px;
 }
+.contact-content-link {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font);
+}
 .hero p {
   font-size: 36px;
   font-weight: bold;
