@@ -30,6 +30,7 @@ h2 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: var(--default-font);
 }
 
 .hero {
@@ -37,10 +38,10 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
@@ -48,9 +49,16 @@ p {
   font-size: 24px;
   margin-top: 20px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   line-height: 27px;
+}
+.content h3 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font);
+  margin: 20px 10px 10px;
 }
 .hero p {
   font-size: 36px;
@@ -58,6 +66,13 @@ p {
   margin: 0;
   color: #272142;
 }
+/* .text-content {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: var(--default-font);
+  text-align: center;
+  opacity: 0.7;
+} */
 .btn-branding {
   background: var(--btn-gradient);
   border-radius: 4px;
@@ -89,7 +104,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     padding: 0;
     text-align: center;
   }
