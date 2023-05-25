@@ -82,6 +82,10 @@ nav li.active a {
 .content-container {
   padding: 20px 20px;
 }
+.content-container h1 {
+  font-size: 80px;
+  line-height: 80px;
+}
 .content h1 {
   font-size: 60px;
   line-height: 80px;
@@ -168,6 +172,12 @@ footer .social-links a {
   .content-container {
     padding: 0;
     text-align: center;
+  }
+  .content-container h1 {
+    font-size: 50px;
+  }
+  .content h1 {
+    font-size: 50px;
   }
   .logo {
     max-height: 50px;
