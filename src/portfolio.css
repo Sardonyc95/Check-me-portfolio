@@ -159,6 +159,9 @@ footer .social-links a {
 }
 
 @media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 50px;
   }
